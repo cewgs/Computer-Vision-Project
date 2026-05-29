@@ -1,13 +1,13 @@
 ## Computer Vision Project — Facial Emotion Recognition
-This repository contains the Colab notebooks and supporting code used for the course on AI in Service (**DLBDSEAIS02**).
-It provides the full training pipeline and a ready-to-use web interface for facial emotion recognition using transfer learning.
+This repository contains the Colab notebooks and supporting code used for the course DLBDSEAIS02.
+It provides the a training pipeline and  web interface for facial emotion recognition using transfer learning.
+
 
 The RAF-DB dataset used for fine-tuning is available at: https://www.kaggle.com/datasets/shuvoalok/raf-db-dataset
 
-Note: The dataset is not included in this repository as it is licensed for non-commercial research and educational purposes only and cannot be redistributed. It is accessed directly via KaggleHub inside the training notebook.
-
 The trained model weights are hosted on Hugging Face at: https://huggingface.co/cws18/CV_uni_project
 
+Note: The dataset is not included in this repository as it is licensed for non-commercial research and educational purposes only and cannot be redistributed. It is accessed directly via KaggleHub inside the training notebook.
 ---
 
 ### Repository Structure
@@ -28,5 +28,6 @@ No dataset download or training required.
 
 ### Running the Full Training Notebook in Google Colab
 To run the full training pipeline, open the main notebook in Google Colab:
+
 [Open Training Notebook in Colab](https://colab.research.google.com/github/cws18/CV_uni_project/blob/main/computer_vision_task_3.ipynb)
 
